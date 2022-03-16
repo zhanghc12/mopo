@@ -3,7 +3,7 @@ tqdm==4.32.1
 gpflow==1.4.1
 flask==1.0.2
 tensorboardX==1.8
-absl-py==0.6.1
+absl-py
 asn1crypto==0.24.0
 astor==0.7.1
 atomicwrites==1.2.1
