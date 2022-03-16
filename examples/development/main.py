@@ -38,6 +38,7 @@ class ExperimentRunner(tune.Trainable):
         tf.keras.backend.clear_session()
 
     def _build(self):
+        print('build' * 100)
         variant = copy.deepcopy(self._variant)
 
         environment_params = variant['environment_params']
