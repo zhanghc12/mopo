@@ -229,7 +229,8 @@ def main(argv=None):
     # __package__ should be `development.main`
     # print(__package__, argv)
     # run_example_local(__package__, argv)
-    run_example_dry(__package__, argv)
+    # run_example_dry(__package__, argv)
+    print(1)
 
 
 if __name__ == '__main__':
