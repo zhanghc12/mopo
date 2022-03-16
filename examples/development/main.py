@@ -17,7 +17,6 @@ from softlearning.value_functions.utils import get_Q_function_from_variant
 
 from softlearning.misc.utils import set_seed, initialize_tf_variables
 from examples.instrument import run_example_local
-
 import mopo.static
 
 class ExperimentRunner(tune.Trainable):

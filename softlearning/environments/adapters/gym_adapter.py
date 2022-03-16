@@ -5,6 +5,7 @@ import copy
 import gym
 from gym import spaces, wrappers
 import d4rl
+import d4rl.gym_mujoco
 
 from .softlearning_env import SoftlearningEnv
 from softlearning.environments.gym import register_environments
