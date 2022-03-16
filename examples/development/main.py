@@ -39,6 +39,7 @@ class ExperimentRunner(tune.Trainable):
 
     def _build(self):
         print('build' * 100)
+        print(5 / err)
         variant = copy.deepcopy(self._variant)
 
         environment_params = variant['environment_params']
