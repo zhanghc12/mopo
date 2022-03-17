@@ -15,6 +15,8 @@ def model_name(args):
 
 
 def main(args):
+    for i in range(1000):
+        print('he')
     np.random.seed(args.seed)
     tf.set_random_seed(args.seed)
 

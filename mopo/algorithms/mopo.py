@@ -334,8 +334,8 @@ class MOPO(RLAlgorithm):
         yield {'done': True, **diagnostics}
 
     def train(self, *args, **kwargs):
-        print('start to traing')
-        print('5 / ', ee)
+        #print('start to traing')
+        #print('5 / ', ee)
         return self._train(*args, **kwargs)
 
     def _log_policy(self):
